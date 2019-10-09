@@ -1,0 +1,300 @@
+{
+	"request_subject_line": "Formal request for access to my personal information",
+	"request_pdf_filename": "Formal_request_for_access_to_my_personal_information.pdf",
+	"industries": [
+		{
+			"id": "telco",
+			"name": "Telecommunications",
+			"icon": "img/industries/telecommunications.svg",
+			"description": "Your phone call records, web browsing history, geolocation, and device identifiers."
+		},
+		{
+			"id": "fitness",
+			"name": "Fitness Trackers",
+			"icon": "img/industries/fitness-trackers.svg",
+			"description": "Your heartbeat, sleeping patterns, diet, weight, walking habits, and general health."
+		},
+		{
+			"id": "dating",
+			"name": "Dating Applications",
+			"icon": "img/industries/dating-applications.svg",
+			"description": "Your personality traits, sexual preferences, dating history, and other lifestyle information."
+		}
+	],
+	"companies": [
+	   {
+	      "name":"Telco 1",
+	      "id":"Telco1",
+	      "logo":"img/industries/telecommunications.svg",
+	      "contact":{
+	         "title":"The Privacy Manager, Telco 1",
+	         "has_mail":true,
+	         "has_email":true,
+	         "address1":"3rd Floor, Telco1 HQ, P.O. Box 5435",
+	         "city":"Telco City",
+	         "region":"TC",
+	         "postalcode":"123456",
+	         "country":"",
+	         "email":"PrivacyManager@telco1.telco"
+	      },
+	      "industry":"telco"
+	   },
+	   {
+	      "name":"Telco 2",
+	      "id":"Telco2",
+	      "logo":"img/industries/telecommunications.svg",
+	      "contact":{
+	         "title":"The Privacy Manager, Telco 2",
+	         "has_mail":true,
+	         "has_email":true,
+	         "address1":"5th Floor, Telco2 HQ, P.O. Box 6546",
+	         "city":"Telco City",
+	         "region":"TC",
+	         "postalcode":"123454",
+	         "country":"",
+	         "email":"PrivacyManager@telco2.telco"
+	      },
+	      "industry":"telco"
+	   },
+		{  
+		   "name":"Dating Site 1",
+		   "id":"dating1",
+		   "logo":"img/industries/dating-applications.svg",
+		   "contact":{  
+		      "title":"Privacy Officer, Dating Site 1",
+		      "has_mail":true,
+		      "has_email":true,
+		      "address1":"8300 Dating Avenue, Suite 800",
+		      "city":"Dating City",
+		      "region":"DC",
+		      "postalcode":"542534",
+		      "country":"Romanceland",
+		      "email":"privacy@datingsite1.com"
+		   },
+		   "industry":"dating"
+		},
+		{
+		   "name":"Fitness Company 1",
+		   "id":"fitness1",
+		   "logo":"img/industries/fitness-trackers.svg",
+		   "contact":{
+		      "title":"Chief Privacy Officer",
+		      "has_mail":true,
+		      "has_email":true,
+		      "address1":"2050 FitLand West",
+		      "city":"Fit City",
+		      "region":"FC",
+		      "postalcode":"23454645",
+		      "country":"",
+		      "email":"privacy.officer@fitco1.com"
+		   },
+		   "industry":"fitness"
+		}
+	],
+	"info_categories": [
+{
+"name": "Call logs",
+"id": "call_logs",
+"description": "E.g. numbers dialed, times and dates of calls, call durations, routing information, and any geolocational or cellular tower information associated with the calls)",
+"industries": ["telco"]
+},
+{
+"name": "Mobile app data",
+"id": "app_data",
+"description": "Information collected about me, or persons/devices associated with my account, using one of your company’s mobile device applications",
+"industries": ["telco","dating","fitness"]
+},
+{
+"name": "Geolocation data",
+"id": "geo_data",
+"description": "collected about me, my devices, and/or associated with my account (e.g. GPS information, cell tower information)",
+"industries": ["telco","dating","fitness"]
+},
+{
+"name": "IP address logs",
+"id": "ip_logs",
+"description": "associated with me, my devices, and/or my account (e.g. IP addresses assigned to my devices/router, IP addresses or domain names of sites I visit and the times, dates, and port numbers)",
+"industries": ["telco","dating","fitness"]
+},
+{
+"name": "Disclosures to third parties",
+"id": "disclosures",
+"description": "Any information about disclosures of my personal information, or information about my account or devices, to other parties, including law enforcement and other state agencies",
+"industries": ["telco","dating","fitness"]
+},
+{
+"name": "Text & multimedia messages",
+"id": "sms_mms",
+"description": "(sent and received, including date, time, and recipient information)",
+"industries": ["telco"]
+},
+{
+"name": "Subscriber information",
+"id": "subscriber_info",
+"description": "that you store about me, my devices, and/or my account",
+"industries": ["telco","dating","fitness"]
+},
+{
+"name": "Other",
+"id": "other",
+"description": "Any additional kinds of information that you have collected, retained, or derived from the telecommunications services or devices that I, or someone associated with my account, have transmitted or received using your company’s services",
+"industries": ["telco"]
+},
+{
+"name": "Any additional kinds of information",
+"id": "other2",
+"description": "that you have collected, retained, or derived from the mobile or website services you provide, including by not limited to: data or records collected using my camera or from my camera roll; social networking information; data collected or retained derived from my microphone; or communications between myself and other users; contact book information;",
+"industries": ["dating"]
+},
+{
+"name": "Personally identifying information",
+"id": "pii",
+"description": "that is unique to me, my devices, and/or my account, such as name, email addresses, phone numbers, responses to relationship questions, or device identifiers;",
+"industries": ["dating"]
+},
+{
+"name": "Lifestyle information ",
+"id": "lifestyle",
+"description": "that you may have about me, such as drinking habits or sexual preference information.",
+"industries": ["dating"]
+},
+{
+"name": "Health and fitness data",
+"id": "health",
+"description": "including all records of my step activity, heart rate, sleep patterns, food intake.",
+"industries": ["fitness"]
+},
+{
+"name": "Any additional kinds of information",
+"id": "other3",
+"description": "that you have collected, retained, or derived from the mobile or website services your provide, or with the fitness-related device your company produces that I use",
+"industries": ["fitness"]
+}
+	],
+	"personal_identifiers": [
+		{
+			"name": "First Name",
+			"id": "firstname",
+			"description": "Your first name",
+			"industries": ["telco", "fitness","dating"]
+		},
+		{
+			"name": "Last Name",
+			"id": "lastname",
+			"description": "Your last name",
+			"industries": ["telco", "fitness","dating"]
+		},
+		{
+			"name": "Email",
+			"id": "email",
+			"description": "Your email address",
+			"industries": ["telco", "fitness","dating"]
+		},
+		{
+			"name": "Telephone",
+			"id": "telephone",
+			"description": "Your phone number.",
+			"industries": ["telco","dating"]
+		},
+		{
+			"name": "Account Number",
+			"id": "account_no",
+			"description": "Your account number",
+			"industries": ["telco"]
+		},
+		{
+			"name": "Username",
+			"id": "username",
+			"description": "Your username",
+			"industries": ["dating"]
+		},
+		{
+			"name": "Address 1",
+			"id": "address1",
+			"description": "First line of your address",
+			"industries": ["telco"]
+		},
+		{
+			"name": "Address 2",
+			"id": "address2",
+			"description": "Second line of your address",
+			"industries": ["telco"]
+		},
+		{
+			"name": "City",
+			"id": "city",
+			"description": "City you reside in",
+			"industries": ["telco"]
+		},
+		{
+			"name": "Province",
+			"id": "province",
+			"description": "Province you reside in",
+			"options": [
+				{
+					"id": "AB",
+					"name": "Alberta"
+				},
+				{
+					"id": "BC",
+					"name": "British Columbia"
+				},
+				{
+					"id": "QC",
+					"name": "Québec"
+				},
+				{
+					"id": "MB",
+					"name": "Manitoba"
+				},
+				{
+					"id": "NB",
+					"name": "New Brunswick"
+				},
+				{
+					"id": "NL",
+					"name": "Newfoundlan and Labrador"
+				},
+				{
+					"id": "NS",
+					"name": "Nova Scotia"
+				},
+				{
+					"id": "NT",
+					"name": "Northwest Territories"
+				},
+				{
+					"id": "NU",
+					"name": "Nunavut"
+				},
+				{
+					"id": "ON",
+					"name": "Ontario"
+				},
+				{
+					"id": "PE",
+					"name": "Prince Edward Island"
+				},
+				{
+					"id": "QC",
+					"name": "Québec"
+				},
+				{
+					"id": "SK",
+					"name": "Saskatchewan"
+				},
+				{
+					"id": "YK",
+					"name": "Yukon"
+				}
+			],
+			"industries": ["telco"]
+		},
+		{
+			"name": "Postal Code",
+			"id": "postalcode",
+			"description": "Postal Code",
+			"industries": ["telco"]
+		}
+	]
+}

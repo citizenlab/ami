@@ -1,0 +1,210 @@
+.container {
+	max-width:33em;
+}
+.mxh-4 {
+    max-height:4rem;
+}
+.btn {
+	/*display: inline-block;*/
+	border-radius: 0.5rem;
+	padding: 0.625rem 0.75rem 0.5rem 0.75rem;
+	text-decoration: none;
+	line-height: 1.5;
+	min-width: 4rem;
+	text-align: center;
+	cursor: pointer;
+}
+.btn-select {
+	text-align: left;
+	border-radius: 0;
+	border: 2px solid #F2F2F2;
+	background-color: #fff;
+}
+.btn-media-select {
+    border: 2px solid #00449E;
+}
+.btn-previous, .btn-secondary {
+    border-style: none;
+    border: 0;
+    background-color: #999;
+    color: #fff;
+}
+.btn-primary {
+    border-style: none;
+    border: 0;
+    background-color: #00449E;
+    color: #fff;
+}
+.btn-social {
+    border-style: none;
+    border: 0;
+    background-color: #00449E;
+    color: #fff;
+    min-width: 0;
+}
+.btn-disabled {
+    border-style: none;
+    border: 0;
+    background-color: #ccc;
+    color: #999;
+}
+.fill-white {
+    fill: white;
+}
+#personal_identifiers input {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    width: 100%;
+}
+.note {
+    display: block;
+    padding: 0.25em 0.5em;
+    margin-top: 0.25em;
+    font-weight: normal;
+    background: #e69999;
+}
+.display-flex-center { display: flex; align-items: center; justify-content: space-between;}
+.flexgrow-1 {
+	flex-grow:1;
+}
+.flexgrow-2 {
+	flex-grow:2;
+}
+.flexy {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexy-big {
+    flex-grow: 4
+}
+.flexy-small {
+    flex-grow: 1;
+}
+
+
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  html {font-size: 105%;}
+}
+@media screen and (min-width: 64em) and (max-width: 86em) {
+  html {font-size: 110.25%;}
+}
+@media screen and (min-width: 86em) and (max-width: 108em) {
+  html {font-size: 115.76%;}
+}
+@media screen and (min-width: 108em) and (max-width: 130em) {
+  html {font-size: 121.55%;}
+}
+@media screen and (min-width: 130em) and (max-width: 152em) {
+  html {font-size: 134.01%;}
+}
+@media screen and (min-width: 152em) {
+  html {font-size: 140.71%;}
+}
+.bg-darkestred {
+    background-color: #9d0003;
+}
+.height-xlarger {
+	min-height: 5rem;
+}
+.note {
+	display:block;
+	font-size: 0.6em;
+	padding:0.25em 0.5em;
+	margin-top:0.25em;
+	font-weight: normal;
+	background: #e69999;
+}
+@media screen and (min-width: 48em){
+	#stageNav {
+	    border-radius: 1em;
+	    overflow:hidden;
+	}
+}
+#stageNav li {
+	width:20%;
+}
+#stageNav li a {
+	width:100%;
+	text-align:center;
+}
+#stageNav .active {
+	color:white;
+	background:#00449E;
+	cursor: pointer;
+	position:relative;
+}
+#stageNav .active:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 1.6rem solid transparent;
+    border-bottom: 1.6rem solid transparent;
+    border-left: 0.8rem solid #00449E;
+    position: absolute;
+    top: 50%;
+    margin-top: -1.6rem;
+    left: 100%;
+    z-index: 2;
+}
+#stageNav li:last-child a:after {
+	display:none;
+}
+#stageNav .previous {
+	color:white;
+	background:#001B44;
+	cursor: pointer;
+}
+#stageNav .future {
+	color:white;
+	cursor: pointer;
+	background:#357EDD;
+}
+#stageNav .disabled {
+	color: #777;
+	cursor: default;
+	background:#b7cbe6;
+}
+
+#email_instructions {
+    display: block;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    counter-reset: numList;
+}
+#email_instructions  li {
+    position: relative;
+    padding-left:32px;
+}
+#email_instructions  li:before {
+    counter-increment: numList;
+    content: counter(numList);
+    
+    float: left;
+    position: absolute;
+    left: 0;
+    
+    font: bold 16px sans-serif;
+    text-align: center;
+    color: #fff;
+    line-height: 24px;
+    
+    width: 24px; height: 24px;
+    background: #00449E;
+    
+    -moz-border-radius: 999px;
+    border-radius: 999px
+}
+.form-item {
+    margin-bottom: 1em;
+    display: block;
+}
+.form-item input {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    width: 100%;
+}
