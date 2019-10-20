@@ -40,6 +40,7 @@ MOSQUITO wants its sweet, sweet data
 
   <!-- Add your site or application content here -->
 
+<div class="dn-l db pa2 f6 tc black" style="background:#81EED3"><?php include('../stats/get_count.php');?> requests and counting!</div>
 <header class="navbar bg-blue clearfix relative pv3">
   <div class="container center tc">
     <h1 class="ph1 mb0 mt1"><span>
@@ -48,10 +49,12 @@ MOSQUITO wants its sweet, sweet data
     </span></h1>
     <div>
   </div>
-  <div class="absolute top-1 right-1">
-    <a class="btn btn-primary f7" href="index-fr.php">Français</a>
+  <div class="absolute top-1 right-1 tr mw5">
+    <a class="dib btn btn-primary f7" href="index-fr.php">Français</a><br>
+    <div class="dn dib-l pa2 f6 br2 mt2 mw5 black" style="background:#81EED3"><?php include('../stats/get_count.php');?> requests and counting!</div>
   </div>
 </header>
+
 
 <!-- 
 ****************************************************
