@@ -632,6 +632,11 @@ MOSQUITO wants its sweet, sweet data
   <script src="js/ami_app/stages.js"></script>
   <script src="js/canvasDoc.js"></script>
   <script type="text/javascript">
+    amiApp.getData("data/fr.json", function(AMIData){
+      // Start App once data available
+      amiApp.dataSource = AMIData;
+      amiApp.initialize();
+    });
     // Defer loading of pdfmake library to save bandwidth on initial load
     window.onload = function(){
       var pdfScriptEl = document.createElement("script");
